@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body {
     background-image: url("../img/background2.jpg");
     background-repeat: no-repeat;
@@ -11,7 +14,13 @@ body {
     margin-right: 25%;
     background-color: whitesmoke;
     text-align: center;
+    border: 5px solid gray;
 }
 #header h1,h2{
     color:black;
+}
+#fila{
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
 }
