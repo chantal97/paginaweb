@@ -1,0 +1,17 @@
+body {
+    background-image: url("../img/background2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+#header{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: whitesmoke;
+    text-align: center;
+}
+#header h1,h2{
+    color:black;
+}
