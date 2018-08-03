@@ -20,7 +20,36 @@ body {
     color:black;
 }
 #fila{
+    margin-bottom: 10px;
+    margin-top: 10px;
     width: 100%;
     height: auto;
     background-color: whitesmoke;
+    color:black;
+}
+#fila::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+#AEQabout{
+    border: 5px solid gray;
+    float: left;
+    /*padding: 15px;*/
+    padding-bottom: 5%;
+    padding-top: 5%;
+    width: 50%;
+    text-align: center;
+}
+#CARabout{
+    border: 5px solid  #669999;
+    float: left;
+    /*padding: 15px;*/
+    padding-bottom: 5%;
+    padding-top: 5%;
+    width: 50%;
+    text-align: center;
+}
+ul li{
+    text-align: left;
 }
